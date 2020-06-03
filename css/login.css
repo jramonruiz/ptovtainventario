@@ -1,0 +1,191 @@
+/*lo utilizo para varias cosas: login*/
+.titulo_inicial {
+	font-family: Georgia, serif;
+	color:#000;
+	font-size:36px;
+	margin-bottom: 20px;
+	padding-top: 0;
+}
+
+.letras_pie_pagina {
+	font-family: Georgia, serif;
+	color:#FFF;
+	font-size:36px;
+	margin-bottom: 20px;
+	padding-top: 0;
+	margin-left:-20px;
+}
+
+/*.leyenda_inicio_sesion {
+	font-family: Georgia, serif;
+	color:#FFFFFF;
+	font-size:36px;
+}*/
+
+.leyenda_inicio_sesion{
+font-family: Garamond, serif;
+line-height: 1em;
+color: #fff9d6;
+font-size: 36px;
+text-shadow:0px 0px 0 rgb(223,223,223),1px 1px 0 rgb(202,202,202),2px 2px 0 rgb(180,180,180),3px 3px 0 rgb(158,158,158), 4px 4px 0 rgb(136,136,136),5px 5px 4px rgba(0,0,0,0.85),5px 5px 1px rgba(0,0,0,0.5),0px 0px 4px rgba(0,0,0,.2);}
+
+.letras_sesion {
+	font-family: Georgia, serif;
+	color:#FFFFFF;
+	font-size:32px;
+}
+
+
+/* start buttons */
+button,
+.button {
+	font-family: Georgia, serif;
+/*	font-weight: bold;*/
+	outline: none;
+	border: none !important;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+	cursor: pointer;
+	font-size: 1.125em;
+	line-height: 1;
+	text-decoration: none !important;
+	background: transparent;
+	overflow: visible;
+}
+button {
+	width: auto;
+	white-space: nowrap;
+	vertical-align: top;
+}
+#ie6 button,
+#ie7 button {
+	margin: -2px 0;
+}
+.button {
+	display:-moz-inline-box; /*Firefox2*/
+	display: inline-block;
+}
+button::-moz-focus-inner{padding:0;border:none;} /* FF Fix */
+
+	button span,
+	.button span {
+		height: 1em;
+		line-height: 1;
+		display: block;
+		margin: 0;
+		padding: 13px 33px;
+		color: #FFF;
+		background: #F8782A;
+		border-radius: 7px;
+			-webkit-border-radius: 7px;
+			-moz-border-radius: 7px;
+		opacity: 0.99;
+		-webkit-text-stroke:1px transparent; /*make it look nice in webkit*/
+		-webkit-opacity: 1;
+	}
+		button span span,
+		.button span span {
+			padding: 0;
+			display: inline;
+		}
+	button:hover span,
+	a.button:hover span,
+	button:active span,
+	a.button:active span {
+		background-color: #151515;
+	}
+	.twitter-button span {
+		background-repeat: no-repeat;
+		background-position: 12px 50%;
+		padding-left: 44px;
+		background-image: url(/images/button-twitter.png);
+	}
+	.blog-button span {
+		background-repeat: no-repeat;
+		background-position: 12px 50%;
+		padding-left: 50px;
+		background-image: url(/images/button-blog.png);
+	}
+	.button-black {
+		font-size: 0.75em;
+		font-family: Helvetica, Arial, sans-serif;
+	}
+		.button-black span {
+			background: url(/images/button-black.gif) 0 0 repeat-x #0A0A0C;
+			border-radius: 4px;
+				-webkit-border-radius: 4px;
+				-moz-border-radius: 4px;
+			padding: 9px 35px;
+		}
+		.button-black:hover span {
+			background: url(/images/button-black.gif) 0 0 repeat-x #0A0A0C;
+		}
+
+/* end buttons */
+
+/* start fields */
+	/*.input {
+		font-family: Helvetica, Arial, sans-serif;
+		font-size: 1em;
+		margin: 0;
+	}
+	input.input {
+		padding: 13px 10px 11px;
+		border: 1px solid #CCCCCC;
+		background: #F0F0F0;
+		color: #2C2C2C;
+		border-radius: 2px;
+	}
+	input.input {
+		line-height: 1;
+		height: 1.125em;
+	}
+	.input {
+		outline-color: #F8782A;
+	}*/
+/* end fields */
+
+.cajas_texto_login {
+		background: #F0F0F0;
+		color: #2C2C2C;
+		border-radius: 2px;
+		padding: 5px 5px 5px;
+		border: 1px solid #CCCCCC;
+		width:400px;		
+}
+
+.letras_sesion{
+	font-family: Georgia, serif;
+	color:#000;
+	font-size:14px;
+	margin-bottom: 20px;
+	padding-top: 0;
+}
+
+.btn{
+  height: 23px; background-color: #f5f5f0; border-bottom: 1px solid #555555;
+  border-right:1px solid #555555; border-top:0px; border-left:0px; 
+   background-image: url(../img/btns.png);
+  padding-left: 20px; background-repeat: no-repeat; cursor:hand; cursor:pointer;
+  margin-left:5px; margin-right:5px; outline-width:0px;
+  font-weight:bold;
+
+}
+
+.btnadd{ background-position: 0px -92px; }
+.btnfind{ background-position: 0px -115px; }
+.btnprint{ background-position: 0px -69px; }
+.btnmail{ background-position: 0px -138px; }
+.btnsave{ background-position: 0px 0px; }
+.btndelete{ background-position: 0px -46px; }
+.btncancel{ background-position: 0px -23px; }
+.btncopy{ background-position: 0px -161px; }
+.btnnonuser{ background-position: 0px -322px; }
+.btnuser{ background-position: 0px -276px; }
+.btnadmin{ background-position: 0px -299px; }
+.btncheck{ background-position: 0px -207px; }
+.btnuncheck{ background-position: 0px -230px; }
+.btnrefresh{  background-position: 0px -345px;  }
+.btnlogout{ background-position: 0px -368px; }
+.btnapply{ background-position: 0px -184px; }

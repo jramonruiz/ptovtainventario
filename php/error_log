@@ -1,0 +1,1 @@
+[03-Jun-2020 17:22:22 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/pcinclou/public_html/imedic/puntoventa/php/buscar_areaventa_enuso.php on line 12
